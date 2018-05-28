@@ -8,5 +8,15 @@ def is_square(number):
 		number=16 -> True 
 		number =15 -> False
 	'''
-	return True
- 
+
+	if (number <= 0):
+		return False
+
+	square = int(math.sqrt(number))
+
+	if(number == square*square):
+		return True
+	else:
+		return False
+
+

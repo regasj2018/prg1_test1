@@ -10,4 +10,9 @@ def is_factorion(n):
 
 	Write a function that returns True if n is a factorion
 	'''
-	return True
+	if (num < 0):
+		return False
+	if (n == 0):
+		return True
+	else:
+
